@@ -28,7 +28,7 @@ class Scraper
   
   def make_courses
     get_courses.each do |course| 
-      
+      course.css('.h2')
   end 
   
   
