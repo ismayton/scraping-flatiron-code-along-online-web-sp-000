@@ -26,7 +26,9 @@ class Scraper
     doc.css('.post')
   end 
   
-  def make_courses 
+  def make_courses
+    get_courses.each do |course| 
+      
   end 
   
   
